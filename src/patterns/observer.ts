@@ -50,6 +50,9 @@ export class RecommendationEngine implements Observer<INotificationEvent> {
       case "REGISTER_USER":
         this._handleUserRegistration(event);
         break;
+      case "DELETE_BOOK":
+        this._handleBookRemoval(event);
+        break;
     }
   }
 
@@ -60,7 +63,7 @@ export class RecommendationEngine implements Observer<INotificationEvent> {
     >,
   ) {
     if (!event.bookAuthor || !event.bookCtg || !event.bookISBN) {
-      throw new Error(`data incompplete for ADD_BOOK`);
+      throw new Error(`data incomplete for ADD_BOOK`);
     }
 
     this.recomendationSys.addBookNode({
@@ -68,6 +71,43 @@ export class RecommendationEngine implements Observer<INotificationEvent> {
       author: event.bookAuthor,
       category: event.bookCtg,
     });
+
+    this.logEvent(event);
+  }
+
+  private _handleBookRemoval(
+    event: Pick<
+      INotificationEvent,
+      "action" | "bookAuthor" | "bookCtg" | "bookISBN"
+    >,
+  ) {
+    if (!event.bookAuthor || !event.bookCtg || !event.bookISBN) {
+      throw new Error(`data incomplete for REMOVE_BOOK`);
+    }
+
+    //2.5 find users related with the book
+    const users = this.recomendationSys.getBookUserRelation(event.bookISBN);
+
+    if (users.length > 0) {
+      //delete edges between users and book
+      for (const user of users) {
+        this.recomendationSys.deleteEdges(user, event.bookISBN);
+      }
+    }
+    //2. Delete edges associated with the book.
+    this.recomendationSys.deleteEdges(event.bookISBN, event.bookAuthor);
+    this.recomendationSys.deleteEdges(event.bookISBN, event.bookCtg);
+
+    //3. Delete the nodes associated with the book.
+    if (this.recomendationSys.getNeighboor(event.bookAuthor).length === 0) {
+      this.recomendationSys.deleteNode(event.bookAuthor);
+    }
+    if (this.recomendationSys.getNeighboor(event.bookCtg).length === 0) {
+      this.recomendationSys.deleteNode(event.bookCtg);
+    }
+
+    //5. delete the book node
+    this.recomendationSys.deleteNode(event.bookISBN);
 
     this.logEvent(event);
   }

@@ -47,6 +47,13 @@ export class LibraryRecommendationSystem extends Graph<string> {
     return this.addEdges(userId, bookISBN);
   }
 
+  getBookUserRelation(bookISBN: string) {
+    //get the list of users that have a relation with the book.
+    return this.getNeighboor(bookISBN).filter(
+      (id) => this.nodeTypes.get(id) === "user",
+    );
+  }
+
   getUserBookRecomendations(userId: string, limit: number = 5) {
     //get loans books by the user;
     const borrowedBooks = this.getNeighboor(userId).filter(

@@ -72,6 +72,18 @@ export class LibraryService {
     return false;
   }
 
+  removeBookFromInventory(isbn: string) {
+    const book = this.bookStore.getBook(isbn);
+    if (!book) throw new Error("Libro no disponible");
+
+    if (book.availableCopies !== book.totalCopies)
+      throw new Error(
+        "No se puede eliminar el libro del inventario hasta obtener todas las copias, por favor devuelvan todas las copias",
+      );
+
+    this.bookStore.removeBook(isbn);
+  }
+
   visualize(): string {
     let output = "📚 Estado Actual de la Biblioteca 📚\n\n";
 

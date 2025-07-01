@@ -47,9 +47,9 @@
 9781234567912
 9781234567913
 9781234567914👥 Clientes Registrados:
-  1: jason momoa (Historial de prestamos: Libro: 9788445000667, Fecha: 6/28/2025; Libro: 9780451524935, Fecha: 6/28/2025; Libro: 9781234567897, Fecha: 6/28/2025)
-  2: Emma Watson (Historial de prestamos: Libro: 9781234567897, Fecha: 6/28/2025; Libro: 9781234567905, Fecha: 6/28/2025)
-  3: Tom Hanks (Historial de prestamos: Libro: 9781234567897, Fecha: 6/28/2025; Libro: 9781234567899, Fecha: 6/28/2025; Libro: 9781234567909, Fecha: 6/28/2025)
+  1: jason momoa (Historial de prestamos: Libro: 9788445000667, Fecha: 7/1/2025; Libro: 9780451524935, Fecha: 7/1/2025; Libro: 9781234567897, Fecha: 7/1/2025)
+  2: Emma Watson (Historial de prestamos: Libro: 9781234567897, Fecha: 7/1/2025; Libro: 9781234567905, Fecha: 7/1/2025)
+  3: Tom Hanks (Historial de prestamos: Libro: 9781234567897, Fecha: 7/1/2025; Libro: 9781234567899, Fecha: 7/1/2025; Libro: 9781234567909, Fecha: 7/1/2025)
 
 🕸️ Grafo de Préstamos:
   1: 9788445000667, 9780451524935

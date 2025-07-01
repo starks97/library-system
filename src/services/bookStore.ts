@@ -61,13 +61,19 @@ export class BookStore implements IBookStoreService {
     return results;
   }
 
-  removeBook(isbn: string): boolean {
+  removeBook(isbn: string) {
     const book = this.inventory.get(isbn);
     if (!book) false;
 
     this.categoryIndex.delete(isbn);
+    this.notificationSystem.publish({
+      bookAuthor: book?.author,
+      bookCtg: book?.category,
+      bookISBN: book?.isbn,
+      action: "DELETE_BOOK",
+    });
 
-    return this.inventory.delete(isbn);
+    this.inventory.delete(isbn);
   }
 
   updateBook(isbn: string, updates: Partial<IBook>) {
