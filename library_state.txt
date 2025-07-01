@@ -1,0 +1,79 @@
+📚 Estado Actual de la Biblioteca 📚
+
+🔖 Libros por ISBN:
+  9781234567910: Asesinato en el Orient Express [Disponible], copias disponibles en stock 7, libros totales en stock:7
+  9781234567911: Harry Potter y la piedra filosofal [Disponible], copias disponibles en stock 9, libros totales en stock:9
+  9781234567912: Don Quijote de la Mancha [Disponible], copias disponibles en stock 5, libros totales en stock:5
+  9781234567913: La metamorfosis [Disponible], copias disponibles en stock 4, libros totales en stock:4
+  9781234567914: Mrs. Dalloway [Disponible], copias disponibles en stock 3, libros totales en stock:3
+  9781234567915: Las aventuras de Tom Sawyer [Disponible], copias disponibles en stock 6, libros totales en stock:6
+  9781234567916: Moby Dick [Disponible], copias disponibles en stock 4, libros totales en stock:4
+  9781234567900: Ficciones [Disponible], copias disponibles en stock 6, libros totales en stock:6
+  9781234567901: Rayuela [Disponible], copias disponibles en stock 2, libros totales en stock:2
+  9781234567902: Veinte poemas de amor y una canción desesperada [Disponible], copias disponibles en stock 7, libros totales en stock:7
+  9781234567903: El viejo y el mar [Disponible], copias disponibles en stock 5, libros totales en stock:5
+  9781234567904: 1984 [Disponible], copias disponibles en stock 8, libros totales en stock:8
+  9781234567905: El señor de los anillos [Prestado a 2], copias disponibles en stock 3, libros totales en stock:4
+  9781234567906: Orgullo y prejuicio [Disponible], copias disponibles en stock 6, libros totales en stock:6
+  9781234567907: Crimen y castigo [Disponible], copias disponibles en stock 3, libros totales en stock:3
+  9781234567908: Kafka en la orilla [Disponible], copias disponibles en stock 5, libros totales en stock:5
+  9781234567909: It [Prestado a 3], copias disponibles en stock 3, libros totales en stock:4
+  9780451524935: 1984 [Prestado a 1], copias disponibles en stock 2, libros totales en stock:3
+  9788445000667: El Señor de los Anillos [Prestado a 1], copias disponibles en stock 9, libros totales en stock:10
+  9781234567897: Cien años de soledad [Prestado a 2, 3], copias disponibles en stock 3, libros totales en stock:5
+  9781234567898: La ciudad y los perros [Disponible], copias disponibles en stock 3, libros totales en stock:3
+  9781234567899: La casa de los espíritus [Prestado a 3], copias disponibles en stock 3, libros totales en stock:4
+
+🔖 Libros por categoría:
+9781234567897
+9780451524935
+9781234567898
+9781234567915
+9788445000667
+9781234567899
+9781234567916
+9781234567900
+9781234567905
+9781234567901
+9781234567904
+9781234567910
+9781234567902
+9781234567911
+9781234567903
+9781234567909
+9781234567906
+9781234567907
+9781234567908
+9781234567912
+9781234567913
+9781234567914👥 Clientes Registrados:
+  1: jason momoa (Historial de prestamos: Libro: 9788445000667, Fecha: 6/28/2025; Libro: 9780451524935, Fecha: 6/28/2025; Libro: 9781234567897, Fecha: 6/28/2025)
+  2: Emma Watson (Historial de prestamos: Libro: 9781234567897, Fecha: 6/28/2025; Libro: 9781234567905, Fecha: 6/28/2025)
+  3: Tom Hanks (Historial de prestamos: Libro: 9781234567897, Fecha: 6/28/2025; Libro: 9781234567899, Fecha: 6/28/2025; Libro: 9781234567909, Fecha: 6/28/2025)
+
+🕸️ Grafo de Préstamos:
+  1: 9788445000667, 9780451524935
+  9781234567900: cat_Cuentos, auth_Jorge Luis Borges
+  2: 9781234567897, 9781234567905
+  9781234567901: cat_Novela, auth_Julio Cortázar
+  9781234567910: cat_Misterio, auth_Agatha Christie
+  3: 9781234567897, 9781234567899, 9781234567909
+  9781234567902: cat_Poesía, auth_Pablo Neruda
+  9781234567911: cat_Fantasía, auth_J.K. Rowling
+  9780451524935: cat_Ciencia Ficción, auth_George Orwell, 1
+  9788445000667: cat_Fantasía, auth_J.R.R. Tolkien, 1
+  9781234567903: cat_Novela, auth_Ernest Hemingway
+  9781234567912: cat_Novela, auth_Miguel de Cervantes
+  9781234567904: cat_Ciencia Ficción, auth_George Orwell
+  9781234567913: cat_Novela, auth_Franz Kafka
+  9781234567897: cat_Novela, auth_García Márquez, 2, 3
+  9781234567905: cat_Fantasía, auth_J.R.R. Tolkien, 2
+  9781234567914: cat_Novela, auth_Virginia Woolf
+  9781234567898: cat_Novela, auth_Mario Vargas Llosa
+  9781234567906: cat_Novela Romántica, auth_Jane Austen
+  9781234567915: cat_Aventura, auth_Mark Twain
+  9781234567899: cat_Novela, auth_Isabel Allende, 3
+  9781234567907: cat_Novela, auth_Fyodor Dostoevsky
+  9781234567916: cat_Aventura, auth_Herman Melville
+  9781234567908: cat_Novela, auth_Haruki Murakami
+  9781234567909: cat_Terror, auth_Stephen King, 3

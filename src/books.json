@@ -1,0 +1,142 @@
+[
+  {
+    "author": "Gabriel García Márquez",
+    "title": "Cien años de soledad",
+    "category": "Novela",
+    "isbn": "9781234567897",
+    "totalCopies": 5
+  },
+  {
+    "author": "Mario Vargas Llosa",
+    "title": "La ciudad y los perros",
+    "category": "Novela",
+    "isbn": "9781234567898",
+    "totalCopies": 3
+  },
+  {
+    "author": "Isabel Allende",
+    "title": "La casa de los espíritus",
+    "category": "Novela",
+    "isbn": "9781234567899",
+    "totalCopies": 4
+  },
+  {
+    "author": "Jorge Luis Borges",
+    "title": "Ficciones",
+    "category": "Cuentos",
+    "isbn": "9781234567900",
+    "totalCopies": 6
+  },
+  {
+    "author": "Julio Cortázar",
+    "title": "Rayuela",
+    "category": "Novela",
+    "isbn": "9781234567901",
+    "totalCopies": 2
+  },
+  {
+    "author": "Pablo Neruda",
+    "title": "Veinte poemas de amor y una canción desesperada",
+    "category": "Poesía",
+    "isbn": "9781234567902",
+    "totalCopies": 7
+  },
+  {
+    "author": "Ernest Hemingway",
+    "title": "El viejo y el mar",
+    "category": "Novela",
+    "isbn": "9781234567903",
+    "totalCopies": 5
+  },
+  {
+    "author": "George Orwell",
+    "title": "1984",
+    "category": "Ciencia Ficción",
+    "isbn": "9781234567904",
+    "totalCopies": 8
+  },
+  {
+    "author": "J.R.R. Tolkien",
+    "title": "El señor de los anillos",
+    "category": "Fantasía",
+    "isbn": "9781234567905",
+    "totalCopies": 4
+  },
+  {
+    "author": "Jane Austen",
+    "title": "Orgullo y prejuicio",
+    "category": "Novela Romántica",
+    "isbn": "9781234567906",
+    "totalCopies": 6
+  },
+  {
+    "author": "Fyodor Dostoevsky",
+    "title": "Crimen y castigo",
+    "category": "Novela",
+    "isbn": "9781234567907",
+    "totalCopies": 3
+  },
+  {
+    "author": "Haruki Murakami",
+    "title": "Kafka en la orilla",
+    "category": "Novela",
+    "isbn": "9781234567908",
+    "totalCopies": 5
+  },
+  {
+    "author": "Stephen King",
+    "title": "It",
+    "category": "Terror",
+    "isbn": "9781234567909",
+    "totalCopies": 4
+  },
+  {
+    "author": "Agatha Christie",
+    "title": "Asesinato en el Orient Express",
+    "category": "Misterio",
+    "isbn": "9781234567910",
+    "totalCopies": 7
+  },
+  {
+    "author": "J.K. Rowling",
+    "title": "Harry Potter y la piedra filosofal",
+    "category": "Fantasía",
+    "isbn": "9781234567911",
+    "totalCopies": 9
+  },
+  {
+    "author": "Miguel de Cervantes",
+    "title": "Don Quijote de la Mancha",
+    "category": "Novela",
+    "isbn": "9781234567912",
+    "totalCopies": 5
+  },
+  {
+    "author": "Franz Kafka",
+    "title": "La metamorfosis",
+    "category": "Novela",
+    "isbn": "9781234567913",
+    "totalCopies": 4
+  },
+  {
+    "author": "Virginia Woolf",
+    "title": "Mrs. Dalloway",
+    "category": "Novela",
+    "isbn": "9781234567914",
+    "totalCopies": 3
+  },
+  {
+    "author": "Mark Twain",
+    "title": "Las aventuras de Tom Sawyer",
+    "category": "Aventura",
+    "isbn": "9781234567915",
+    "totalCopies": 6
+  },
+  {
+    "author": "Herman Melville",
+    "title": "Moby Dick",
+    "category": "Aventura",
+    "isbn": "9781234567916",
+    "totalCopies": 4
+  }
+]
